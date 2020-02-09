@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BDE2179-F55D-4591-B797-95E56357C544}</ProjectGuid>
+    <ProjectGuid>{96A872B1-C993-4DEA-9715-B33D7E62EBE1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp2</RootNamespace>
-    <AssemblyName>WindowsFormsApp2</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsForm3</RootNamespace>
+    <AssemblyName>WindowsForm3</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -65,7 +65,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,65 +79,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\1_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\2_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\3_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\4_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\5_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\6_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\7_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\8_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\9_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\10_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\11_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\12_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\13_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\14_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\15_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\16_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\17_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\18_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\19_64x64.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="64x64\20_64x64.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>
