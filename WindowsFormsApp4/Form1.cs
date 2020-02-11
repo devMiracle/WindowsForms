@@ -26,7 +26,7 @@ namespace WindowsFormsApp4
             listText.Items.Add(inputTextBox.Text);
             comboBox.Items.Add(inputTextBox.Text);
             inputTextBox.Clear();
-            inputTextBox.Select();
+            //inputTextBox.Select();
         }
 
         private void inputTextBox_TextChanged(object sender, EventArgs e)
@@ -51,7 +51,7 @@ namespace WindowsFormsApp4
                 e.SuppressKeyPress = true;
                 addButton_Click(sender, e);
                 inputTextBox.Clear();
-                inputTextBox.Select();
+                //inputTextBox.Select();
             }
         }
 
